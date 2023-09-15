@@ -1,0 +1,30 @@
+.cards-wrapper {
+  padding: 80px 133px;
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 16px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.loader-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+/******responsiveness******/
+@media (max-width: 1000px) {
+  .cards-wrapper {
+    padding: 80px 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cards-wrapper {
+    padding: 80px 20px;
+  }
+}
